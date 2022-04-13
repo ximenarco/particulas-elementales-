@@ -1,6 +1,6 @@
 import streamlit as st
 st.title ("Particulas elementales")
-from sympy import *
+from sympy import 
 import heppackv0 as hep
 s,theta=symbols('s theta',real=True)
 p=symbols('p',positive=True)
