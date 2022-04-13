@@ -10,5 +10,5 @@ p2=[p,0,pi,pi]
 p3=[p,0,theta,0]
 p4=[p,0,pi-theta,pi]
 sCM=4*p*p;sCM
-tCM=-sCM*sin(theta/2)**2;tCM
-uCM=-sCM*cos(theta/2)**2;uCM
+tCM=-sCM*sin(theta/2)^2;tCM
+uCM=-sCM*cos(theta/2)^2;uCM
