@@ -1,2 +1,2 @@
-import streamlimt as st
+import streamlit as st
 st.title ("Particulas elementales")
