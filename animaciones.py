@@ -1,2 +1,2 @@
 import streamlimt as st
-st.tittle ("Particulas elementales")
+st.title ("Particulas elementales")
