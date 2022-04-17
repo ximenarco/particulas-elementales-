@@ -16,10 +16,7 @@ if st.button ("Quarks"):
               "Fondo (bottom) o belleza (beauty)."
               "Dotado de una inferioridad (bottomness) -1.")
   with col2:
-    st.
-               "Tope (top) o verdad (truth). Dotado de una superioridad (topness) +1."
-               "Fondo (bottom) o belleza (beauty)."
-               "Dotado de una inferioridad (bottomness) -1.")
+    st.image ["quarks.jpg"]
     
 if st.button ("Leptones"):
   st.write ("Lepton, cualquier miembro de una clase de partículas subatómicas que responden solo a la fuerza electromagnética, la fuerza débil y la fuerza gravitacional y no se ven afectadas por la fuerza fuerte. Se dice que los leptones son partículas elementales; es decir, no parecen estar formados por unidades de materia más pequeñas. Los leptones pueden transportar una unidad de carga eléctrica o ser neutrales.")
