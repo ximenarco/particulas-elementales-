@@ -11,11 +11,15 @@ if st.button ("Quarks"):
     st.write ("Arriba (up). Dotado de un isospín +1/2 como número cuántico." 
               "Abajo (down). Dotado de un isospín -1/2 como número cuántico." 
               "Encanto (charm). Dotado de un encanto +1 como número cuántico."
-              "Extraño (strange). Dotado de una extrañeza -1 como número cuántico.")
+              "Extraño (strange). Dotado de una extrañeza -1 como número cuántico."
+              "Tope (top) o verdad (truth). Dotado de una superioridad (topness) +1."
+              "Fondo (bottom) o belleza (beauty)."
+              "Dotado de una inferioridad (bottomness) -1.")
   with col2:
-    st.write ("Tope (top) o verdad (truth). Dotado de una superioridad (topness) +1."
+    st.
+               "Tope (top) o verdad (truth). Dotado de una superioridad (topness) +1."
                "Fondo (bottom) o belleza (beauty)."
-                "Dotado de una inferioridad (bottomness) -1.")
+               "Dotado de una inferioridad (bottomness) -1.")
     
 if st.button ("Leptones"):
   st.write ("Lepton, cualquier miembro de una clase de partículas subatómicas que responden solo a la fuerza electromagnética, la fuerza débil y la fuerza gravitacional y no se ven afectadas por la fuerza fuerte. Se dice que los leptones son partículas elementales; es decir, no parecen estar formados por unidades de materia más pequeñas. Los leptones pueden transportar una unidad de carga eléctrica o ser neutrales.")
