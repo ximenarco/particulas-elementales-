@@ -8,13 +8,14 @@ if st.button ("Quarks"):
   st.write ("Los quarks son un tipo de partícula que constituye la materia. Si miramos a nuestro alrededor... toda la materia que vemos está compuesta de protones y neutrones, y estas partículas están compuestas de quarks.")
   col1,col2= st.columns (2)
   with col1:
-    st.markdown ("Arriba (up). Dotado de un isospín +1/2 como número cuántico."
-              "Abajo (down). Dotado de un isospín -1/2 como número cuántico."
-              "Encanto (charm). Dotado de un encanto +1 como número cuántico."
-              "Extraño (strange). Dotado de una extrañeza -1 como número cuántico."
-              "Tope (top) o verdad (truth). Dotado de una superioridad (topness) +1."
-              "Fondo (bottom) o belleza (beauty)."
-              "Dotado de una inferioridad (bottomness) -1.")
+    st.markdown ('''Arriba (up). Dotado de un isospín +1/2 como número cuántico.
+    Abajo (down). Dotado de un isospín -1/2 como número cuántico.
+    Encanto (charm). Dotado de un encanto +1 como número cuántico.
+    Extraño (strange). Dotado de una extrañeza -1 como número cuántico.
+    Tope (top) o verdad (truth). Dotado de una superioridad (topness) +1.
+    Fondo (bottom) o belleza (beauty).
+    Dotado de una inferioridad (bottomness) -1.''')
+    
   with col2:
     st.image ("quarks.jpg")
     
