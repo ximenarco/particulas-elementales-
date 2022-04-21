@@ -3,7 +3,11 @@ st.title("Partículas elementales")
 st.header("Esta aplicación te enseñara un poco acerca de las partículas elementales.") 
 st.write("Las partículas elementales podrían considerarse como los ladrillos básicos de la creación, se les llama partículas elementales ya que no están constituidas por partículas más pequeñas.")
 
-if st.button("Quarks"):
+with st.sidebar():
+  bt1=st.button("Quarks")
+  bt2=st.button("Leptones")
+  
+if bt1:
   st.write("Son responsables de la formación y estructura de los núcleos atómicos y de las interacciones con su entorno.")
   st.write("Los quarks son un tipo de partícula que constituye la materia. Si miramos a nuestro alrededor... toda la materia que vemos está compuesta de protones y neutrones, y estas partículas están compuestas de quarks.")
   col1,col2= st.columns (2)
@@ -24,7 +28,7 @@ if st.button("Quarks"):
   with col2:
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Neutron_quark_structure.svg/1200px-Neutron_quark_structure.svg.png")
     
-if st.button("Leptones"):
+if bt2:
   st.write("Lepton, cualquier miembro de una clase de partículas subatómicas que responden solo a la fuerza electromagnética, la fuerza débil y la fuerza gravitacional y no se ven afectadas por la fuerza fuerte. Se dice que los leptones son partículas elementales; es decir, no parecen estar formados por unidades de materia más pequeñas. Los leptones pueden transportar una unidad de carga eléctrica o ser neutrales.")
   st.write("Los leptones son partículas elementales con espín 1/2 (un fermión) que no se ven afectadas por la fuerza nuclear fuerte. Son una familia de partículas diferente a la otra familia conocida de fermiones, los quarks. Los electrones son un ejemplo bien conocido que se encuentran en la materia ordinaria.")
   
