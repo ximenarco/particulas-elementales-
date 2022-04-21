@@ -18,7 +18,7 @@ if st.button("Quarks"):
     
     **Tope (top) o verdad (truth).** Dotado de una superioridad (topness) +1.
      
-    **Fondo (bottom) o belleza (beauty).**Dotado de una inferioridad (bottomness) -1.  ''')
+    **Fondo (bottom) o belleza (beauty).** Dotado de una inferioridad (bottomness) -1.  ''')
     
     
   #with col2:
