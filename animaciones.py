@@ -6,6 +6,8 @@ st.write("Las partículas elementales podrían considerarse como los ladrillos b
 with st.sidebar:
   bt1=st.button("Quarks")
   bt2=st.button("Leptones")
+  bt3=st.button("Bosón de gauge")
+  bt4=st.button("Bosón de Higgs")
   
 if bt1:
   st.write("Son responsables de la formación y estructura de los núcleos atómicos y de las interacciones con su entorno.")
@@ -32,9 +34,9 @@ if bt2:
   st.write("Lepton, cualquier miembro de una clase de partículas subatómicas que responden solo a la fuerza electromagnética, la fuerza débil y la fuerza gravitacional y no se ven afectadas por la fuerza fuerte. Se dice que los leptones son partículas elementales; es decir, no parecen estar formados por unidades de materia más pequeñas. Los leptones pueden transportar una unidad de carga eléctrica o ser neutrales.")
   st.write("Los leptones son partículas elementales con espín 1/2 (un fermión) que no se ven afectadas por la fuerza nuclear fuerte. Son una familia de partículas diferente a la otra familia conocida de fermiones, los quarks. Los electrones son un ejemplo bien conocido que se encuentran en la materia ordinaria.")
   
-if st.button("Bosón de gauge"):
+if bt3:
   st.write("un bosón que media la interacción entre partículas elementales. Hay varios tipos: fotones para interacciones electromagnéticas, bosones vectoriales intermedios W y Z para interacciones débiles y gravitones para interacciones gravitatorias.")
   
-if st.button("Bosón de Higgs"):
+if bt4:
   st.write("Los bosones a veces se denominan partículas de fuerza, porque son los bosones los que controlan la interacción de las fuerzas físicas, como el electromagnetismo y posiblemente incluso la propia gravedad.")
  
