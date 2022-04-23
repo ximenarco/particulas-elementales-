@@ -37,7 +37,7 @@ if bt2:
   st.header("Leptones")
   st.write("Lepton, cualquier miembro de una clase de partículas subatómicas que responden solo a la fuerza electromagnética, la fuerza débil y la fuerza gravitacional y no se ven afectadas por la fuerza fuerte. Se dice que los leptones son partículas elementales; es decir, no parecen estar formados por unidades de materia más pequeñas. Los leptones pueden transportar una unidad de carga eléctrica o ser neutrales.")
   st.write("Los leptones son partículas elementales con espín 1/2 (un fermión) que no se ven afectadas por la fuerza nuclear fuerte. Son una familia de partículas diferente a la otra familia conocida de fermiones, los quarks. Los electrones son un ejemplo bien conocido que se encuentran en la materia ordinaria.")
-  st.image("http://red.unal.edu.co/cursos/sedes/manizales/ciencias/images/leptones.png")
+  st.image("https://d1kvkzjpuym02z.cloudfront.net/61313570a68662083c853e9e.png?Expires=2104061090&Signature=Fu-iLqxwRPckZqqOwqCOuW11kNFgE2VNR-Slff54Q3MHmgIc2rfBI3fbh-wXcvfBwYLucvPJeVfFDiFwxnvTxbWfrPgKpVzI5buRxr3YxTZfz2pYkzBDQlMR~rVlBFJqn3Tj3AuBCT334NJwA0hBYFLWD9XMyrWBDViWuObglOE_&Key-Pair-Id=APKAJXYWFXCDTRLR3EFA")
   
 if bt3:
   st.header("Bosón de gauge")
